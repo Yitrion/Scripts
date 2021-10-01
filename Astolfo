@@ -1,1 +1,15 @@
-warn('This Script Is Down At The Moment')
+
+function Find_Game()
+local GameID = game.GameId
+if GameID == 115797356 then
+return 'https://raw.githubusercontent.com/Yitrion/Scripts/main/CounterBlox';
+    end
+end
+
+loadstring(game:HttpGet(Find_Game(), true))()
+
+--[[
+leaving this open source so people can learn from my super epic scripting (its less effort then having to constantly obfsucate it)
+
+(i do plan on upgrading this bad code but i wanted to release script asap)
+]]
